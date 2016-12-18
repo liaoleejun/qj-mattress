@@ -8,39 +8,62 @@
     <meta name="description" content="佺健床垫，一起来设计定制我们每天睡的床垫吧，三分钟DIY。佺健床垫（又名全健床垫），直营佺健旗下所有产品，囊括床垫、床、沙发以及其他各类家具家居，深耕床垫家具家居行业近二十年。">
     <meta name="keywords" content="佺健,佺健床垫,佺健网络站点,全健,全健床垫,全健网络站点">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style src="css/style.css"></style>
+
+    <style>
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+            vertical-align: top;
+        }
+
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+
+        ul.nav li.dropdown:hover > ul.dropdown-menu {
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-faded">
-            <a class="navbar-brand" href="#">佺健</a>
-            <ul class="nav navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">品牌产品</a>
-                    <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
-                        <a class="dropdown-item" href="#">佺健皇</a>
-                        <a class="dropdown-item" href="#">佺健缘</a>
-                        <a class="dropdown-item" href="#">佺健情</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">品质服务</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">京东旗舰店</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">天猫旗舰店<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">京东旗舰店</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">联系我们</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">佺健<span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">品牌产品<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">佺健皇</a></li>
+                            <li><a href="#">佺健缘</a></li>
+                            <li><a href="#">佺健情</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">实木家具</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">高档沙发</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">品质服务</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">京东旗舰店</a></li>
+                    <li><a href="#">天猫旗舰店</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
 </body>
 </html>
